@@ -10,7 +10,7 @@ import com.michael.cursomc.repositories.PedidoRepository;
 import com.michael.cursomc.services.exceptions.ObjectNotFoundException;
 
 @Service
-public class PedidoServico {
+public class PedidoService {
 	
 	@Autowired
 	private PedidoRepository pedidoRepository;

@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.michael.cursomc.domain.Pedido;
-import com.michael.cursomc.services.PedidoServico;
+import com.michael.cursomc.services.PedidoService;
 
 @RestController
 @RequestMapping(value = "/pedidos")
 public class PedidoResource {
 	
 	@Autowired
-	private PedidoServico service;
+	private PedidoService service;
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public ResponseEntity<Pedido> find(@PathVariable Integer id) {
