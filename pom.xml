@@ -10,8 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.michael.cursomc</groupId>
-	<artifactId>cursomc</artifactId>
+	<artifactId>cursomcc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>cursmomcc</name>
 	<description>Estudo de caso java para curso de modelagem conceitual com UML</description>
 
