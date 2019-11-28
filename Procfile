@@ -1,1 +1,1 @@
-java $JAVA_OPTS -jar target/cursmomcc-0.0.1-SNAPSHOT.jar --port $PORT target/cursmomcc-0.0.1-SNAPSHOT.jar
+java -Dserver.port=$PORT -Dspring.profiles.active=prod $JAVA_OPTS -jar target/cursmomcc-0.0.1-SNAPSHOT.jar
