@@ -1,4 +1,4 @@
-package com.michael.cursomc.repositories;
+package com.michael.cursomc.services;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -20,6 +20,15 @@ import com.michael.cursomc.domain.Pedido;
 import com.michael.cursomc.domain.Produto;
 import com.michael.cursomc.domain.enums.EstadoPagamento;
 import com.michael.cursomc.domain.enums.TipoCliente;
+import com.michael.cursomc.repositories.CategoriaRepository;
+import com.michael.cursomc.repositories.CidadeRepository;
+import com.michael.cursomc.repositories.ClienteRepository;
+import com.michael.cursomc.repositories.EnderecoRepository;
+import com.michael.cursomc.repositories.EstadoRepository;
+import com.michael.cursomc.repositories.ItemPedidoRepository;
+import com.michael.cursomc.repositories.PagamentoRepository;
+import com.michael.cursomc.repositories.PedidoRepository;
+import com.michael.cursomc.repositories.ProdutoRepository;
 
 @Service
 public class DBService {
