@@ -1,1 +1,1 @@
-java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/cursmomcc-0.0.1-SNAPSHOT.jar
+java -Dserver.port=$PORT -Dspring.profiles.active=prod -jar target/*.jar
